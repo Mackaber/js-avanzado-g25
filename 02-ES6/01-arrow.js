@@ -41,3 +41,11 @@ console.log('La Suma 5 es', sumaCinco(20,20))
 const miArreglo = ["Perros", "Gatos", "Patos", "Ratones"]
 
 miArreglo.forEach((elemento)=>console.log(elemento))
+
+for(let i=0;i<miArreglo.length;i++) {
+    console.log(miArreglo[i])
+}
+
+miArreglo.forEach( elemento => console.log(elemento))
+
+"a" === "a" ? console.log("Si es verdadero") : console.log("Es falso")
