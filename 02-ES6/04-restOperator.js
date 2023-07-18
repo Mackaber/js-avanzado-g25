@@ -9,7 +9,7 @@ const persona = {
 // rest (del lado izquierdo) = spread (del lado derecho) 
 const { firstName, lastName, ...info } = persona;
 const { profession } = info
-console.log(profession);
+console.log(info);
 
 const user = {
   firstName: "Cesar",
